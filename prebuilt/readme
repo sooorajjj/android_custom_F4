@@ -1,0 +1,5 @@
+images/dtbo.img => dtbo -- probably not needed
+
+unpack images/boot.img:
+  boot.img-dtb => dtb
+  boot.img-kernel => kernel
