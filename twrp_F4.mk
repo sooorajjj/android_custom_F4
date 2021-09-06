@@ -29,7 +29,7 @@ $(call inherit-product, device/Custom/F4/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := F4
-PRODUCT_NAME := omni_F4
+PRODUCT_NAME := twrp_F4
 PRODUCT_MANUFACTURER := Custom
 PRODUCT_BRAND := Custom
 PRODUCT_MODEL := F4
