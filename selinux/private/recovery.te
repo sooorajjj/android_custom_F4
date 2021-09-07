@@ -1,3 +1,0 @@
-set_prop(recovery, ctl_interface_start_prop)
-
-allow recovery hal_keymaster_hwservice:hwservice_manager { add find };

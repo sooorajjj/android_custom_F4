@@ -16,7 +16,7 @@
 
 # Release name
 DEVICE_PATH := device/Custom/F4
-PRODUCT_RELEASE_NAME := Custom
+PRODUCT_RELEASE_NAME := Custom 4
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += fastbootd
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)

@@ -1,7 +1,7 @@
 # mount point	fstype	device											device2				flags
-/system     	system		ext4		display="system";logical
-/system_ext     system_ext	ext4		flags=display="system extension";logical
-/product		product		ext4		display="product";logical
+# /system     	system		ext4		display="system";logical
+# /system_ext     system_ext	ext4		flags=display="system extension";logical
+# /product		product		ext4		display="product";logical
 
 /metadata		ext4	/dev/block/by-name/metadata											flags=display="Metadata"
 /firmware		vfat	/dev/block/bootdevice/by-name/modem									flags=slotselect;display="Firmware";mounttodecrypt;fsflags="ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337,context=u:object_r:firmware_file:s0"
@@ -30,4 +30,4 @@
 
 # Removable storage
 /external_sd    vfat    /dev/block/mmcblk0p1                            /dev/block/mmcblk0     flags=display="MicroSD";storage;wipeingui;removable
-/usbstorage		auto	/dev/block/sdg1									/dev/block/sdg		flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
+/usbstorage		vfat	/dev/block/sdh1									/dev/block/sdh		flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
